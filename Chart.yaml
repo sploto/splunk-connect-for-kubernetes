@@ -1,0 +1,21 @@
+apiVersion: v1
+description: Collect logs, objects (metadata), and metrics with Splunk.
+home: https://github.com/sploto/splunk-connect-for-kubernetes/tree/master/helm-chart
+keywords:
+- splunk
+- monitoring
+- logging
+- metrics
+- metadata
+- objects
+maintainers:
+- name: Gimi Liang
+name: splunk-connect-for-kubernetes
+sources:
+- https://github.com/sploto/splunk-connect-for-kubernetes/tree/master/helm-chart
+- https://github.com/splunk/fluent-plugin-splunk-hec
+- https://github.com/splunk/fluent-plugin-kubernetes-objects
+- https://github.com/splunk/docker-fluentd-hec
+- https://github.com/splunk/docker-kube-objects
+- https://github.com/kubernetes/heapster
+version: 1.0.1
